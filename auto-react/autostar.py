@@ -8,4 +8,4 @@ async def on_message(message):
 	
 		
 def setup(bot):
-    bot.add_cog(Autoreaction(bot))
+    bot.add_cog(Autoreact(bot))
