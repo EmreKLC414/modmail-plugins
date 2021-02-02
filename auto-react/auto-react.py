@@ -1,5 +1,6 @@
 import asyncio
 import discord
+from discord.ext import commands
 
 class Autoreact(commands.Cog):
     """Test 1 2 3"""
