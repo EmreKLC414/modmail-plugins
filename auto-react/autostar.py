@@ -13,4 +13,4 @@ async def on_message(message):
 		
 		
 def setup(bot):
-    bot.load_extension(auto-react)
+    bot.add_cog(Auto-react(bot))
