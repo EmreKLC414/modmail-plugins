@@ -2,13 +2,11 @@ import asyncio
 from discord.ext
 
 class Autoreact(commands.Cog):
-     def __init__(self, bot):
-        self.bot = bot
- 
-	@commands.Cog.listener()
+
+	@client.event
 	async def on_message(message):
-    	      if(message.channel.id == "775039612053094420"):
-              await client.add_reaction(message, "⭐")
+ 		if(message.channel.id == "775039612053094420"):
+		await client.add_reaction(message, "⭐")
 		
 		
 def setup(bot):
