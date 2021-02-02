@@ -1,5 +1,4 @@
 import asyncio
-import emoji
 import discord
 from discord.ext
 
