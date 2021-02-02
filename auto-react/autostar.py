@@ -1,6 +1,7 @@
 import asyncio
 import discord
 
+   @commands.Cog.listener()
    async def on_message(message):
      if(message.channel.id == "775039612053094420"):
      await client.add_reaction(message, "⭐")
