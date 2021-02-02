@@ -1,6 +1,5 @@
 import asyncio
 import discord
-from discord.ext
 
    @commands.command()
    async def on_message(message):
