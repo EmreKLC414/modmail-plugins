@@ -3,8 +3,9 @@ from discord.ext    import commands
 from discord.ext.commands   import Bot
 import asyncio
 
-class EmojiSuggestor(commands.Cog):
-  
+class Autoreact(commands.Cog):
+     def __init__(self, bot):
+        self.bot = bot
  
 @commands.Cog.listener()
 async def on_message(message):
@@ -13,4 +14,4 @@ async def on_message(message):
 		
 		
 def setup(bot):
-    bot.add_cog(Auto-react(bot))
+    bot.add_cog(Autoreact(bot))
