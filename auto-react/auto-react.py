@@ -9,7 +9,7 @@ class Autoreact(commands.Cog):
         self.db = bot.plugin_db.get_partition(self)
         bot.loop.create_task(self.load_variables())
 
-@commands.Autoreact.listener()
+@commands.Cog.listener()
 async def on_message(message):
     if(message.channel.id == "802867247772074004"):
         await client.add_reaction(message, "⭐")
