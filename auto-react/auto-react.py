@@ -11,7 +11,7 @@ class Autoreact(commands.Cog):
             return
         if not isinstance(message.channel, discord.TextChannel):
             return
-        if message.channel.id == 802867247772074004:
+        if message.channel.id == 802867247772074004: #ChannelID
             await message.add_reaction("\u2b50")
     
         
