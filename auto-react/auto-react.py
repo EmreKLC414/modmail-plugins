@@ -24,8 +24,8 @@ def setup(bot):
 #
 #   
 # For Multiple Channel;
-# if message.channel.id in [channel_id_one, channel_id_two, channel_id_three]:
-#    await message.add_reaction("emojihere")
+#         if message.channel.id in [channel_id_one, channel_id_two, channel_id_three]:
+#            await message.add_reaction("emojihere")
 #
 #
 #For Multiple Emoji
