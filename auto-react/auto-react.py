@@ -9,7 +9,7 @@ class Autoreact(commands.Cog):
 @commands.command
 async def on_message(self, ctx):
     if(message.self.bot.get_channel(802867247772074004)):
-        await ctx.add_reaction(message, "⭐")
+        await ctx.add_reaction(self, message, "⭐")
 	
 		
 def setup(bot):
