@@ -10,7 +10,7 @@ async def on_message(self, message):
     if message.author.bot:
         return
     if message.channel.id == 802867247772074004:
-        await message.add_reaction("\u2b50")
+        await message.add_reaction("\U00002b50")
 	
 		
 def setup(bot):
