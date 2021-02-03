@@ -1,5 +1,4 @@
 import discord
-import emoji
 from discord.ext import commands
 
 class Autoreact(commands.Cog):
