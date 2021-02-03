@@ -10,7 +10,7 @@ class Autoreact(commands.Cog):
         if message.author.bot:
             return
         if message.channel.id == 802867247772074004:
-            await message.channel.send("Hello.")
+            await message.add_reaction("\u2b50")
     
         
 def setup(bot):
