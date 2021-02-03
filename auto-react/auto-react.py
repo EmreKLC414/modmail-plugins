@@ -11,7 +11,7 @@ class Autoreact(commands.Cog):
             return
         if not isinstance(message.channel, discord.TextChannel):
             return
-        if message.channel.id == 802867247772074004: #Channel_ID
+        if message.channel.id == 775039612053094420: #Channel_ID
             await message.add_reaction("\u2b50")  # Emoji
     
         
