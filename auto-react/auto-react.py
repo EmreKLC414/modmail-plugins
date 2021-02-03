@@ -9,6 +9,8 @@ class Autoreact(commands.Cog):
     async def on_message(self, message):
         if message.author.bot:
             return
+        if not isinstance(message.channel, discord.TextChannel):
+            return
         if message.channel.id == 802867247772074004:
             await message.add_reaction("\u2b50")
     
