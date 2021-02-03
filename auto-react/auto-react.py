@@ -11,9 +11,21 @@ class Autoreact(commands.Cog):
             return
         if not isinstance(message.channel, discord.TextChannel):
             return
-        if message.channel.id == 802867247772074004: #ChannelID
-            await message.add_reaction("\u2b50")
+        if message.channel.id == 802867247772074004: #Channel_ID
+            await message.add_reaction("\u2b50")  # Emoji
     
         
 def setup(bot):
     bot.add_cog(Autoreact(bot))
+
+    
+    
+# For Multiple Channel;
+# if message.channel.id in [channel_id_one, channel_id_two, channel_id_three]:
+#    await message.add_reaction("emojihere")
+#
+#
+#For Multiple Emoji
+#        if message.channel.id == 802867247772074004: #Channel_ID
+#            await message.add_reaction("emojihere")
+#            await message.add_reaction("emojihere")
