@@ -9,7 +9,7 @@ class Autoreact(commands.Cog):
 async def on_message(self, message):
     if message.author.bot:
         return
-    if message.channel.id == 802867247772074004:
+    if int(message.channel.id) == 802867247772074004:
         await message.channel.send("Hello.")
 	
 		
