@@ -8,7 +8,7 @@ class Publish(commands.Cog):
         self.bot = bot
 
     @commands.Cog.listener()
-    async def publish(self, message):
+    async def on_message(self, message):
         if message.author.bot:
             return
         if not isinstance(message.channel, discord.TextChannel):
