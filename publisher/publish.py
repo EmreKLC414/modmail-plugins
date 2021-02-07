@@ -12,7 +12,7 @@ class Autoreact(commands.Cog):
         if not isinstance(message.channel, discord.TextChannel):
             return
         if message.channel.id == 802867247772074004: #Channel_ID
-            await message.publish()  
+            await message_id.publish()  
     
         
 def setup(bot):
