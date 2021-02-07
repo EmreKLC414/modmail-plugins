@@ -13,8 +13,7 @@ class Publish(commands.Cog):
 
     @commands.command()
     @checks.has_permissions(PermissionLevel.MODERATOR)
-    async def publish(self, message_id: discord.Message):
-        """Publish message sent in announcement channel."""
+    async def publish(self, message_id: discord.TextChannel):
         if message.channel.id == 802867247772074004:
             await message.publish()
             
