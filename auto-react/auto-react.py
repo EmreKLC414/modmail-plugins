@@ -16,7 +16,13 @@ class Autoreact(commands.Cog):
         if message.channel.id == 843468125244489738:
             await message.add_reaction("<:iyi:809187585913126912>")
             await message.add_reaction("<:gg:809187585779433496>")
-    
+        if message.channel.id == 784470975647186954:
+            await message.add_reaction("<:iyi:809187585913126912>")
+            await message.add_reaction("<:gg:809187585779433496>")
+        if message.channel.id == 774426048921206815:
+            await message.add_reaction("<:iyi:809187585913126912>")
+            await message.add_reaction("<:gg:809187585779433496>")
+            
         
 def setup(bot):
     bot.add_cog(Autoreact(bot))
