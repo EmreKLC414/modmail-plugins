@@ -12,9 +12,9 @@ class Autoreact(commands.Cog):
         if not isinstance(message.channel, discord.TextChannel):
             return
         if message.channel.id == 775039612053094420: #Channel_ID
-            await message.add_reaction("\u2b50")  # Emoji
-       if message.channel.id == 922484953864880128: #Channel_ID
-            await message.add_reaction("\u2b50")  # Emoji
+            await message.add_reaction("⭐")  # Emoji
+        if message.channel.id == 922484953864880128: #Channel_ID
+            await message.add_reaction("⭐")  # Emoji
         if message.channel.id == 843468125244489738:
             await message.add_reaction("<:iyi:809187585913126912>")
             await message.add_reaction("<:gg:809187585779433496>")
