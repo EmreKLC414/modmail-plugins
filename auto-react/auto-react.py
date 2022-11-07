@@ -26,8 +26,8 @@ class Autoreact(commands.Cog):
             await message.add_reaction("<:gg:809187585779433496>")
             
         
-def setup(bot):
-    bot.add_cog(Autoreact(bot))
+async def setup(bot):
+    await bot.add_cog(Autoreact(bot))
 
  
 
